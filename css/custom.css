@@ -1,0 +1,34 @@
+.rainbow-bus {
+	background: linear-gradient(120deg,
+		hsl(0deg,100%,60%), hsl(30deg,100%,60%), hsl(45deg,100%,60%), hsl(60deg,100%,60%) 40%,
+		hsl(75deg,100%,60%), hsl(120deg,100%,60%), hsl(180deg,100%,60%) 70%,
+		hsl(200deg,100%,60%), hsl(240deg,100%,60%), hsl(270deg,100%,60%), hsl(300deg,100%,60%));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-ms-background-clip: text;
+	color: transparent;
+}
+
+.btn.my-picker {
+	width: 5rem;
+	height: 5rem;
+	margin: 1ex;
+	background-size: contain;
+	background-position: center;
+}
+
+.btn.my-picker.active {
+	outline: double black;
+	outline-width: thick;
+}
+
+#avatar-preview {
+	width: 256px;
+	height: 256px;
+	border: none;
+}
+
+#avatar-canvas {
+	display: none;
+}

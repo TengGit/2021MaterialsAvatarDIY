@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>时间晶体｜DIY 头像</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center my-2"><span>时间晶体</span>｜DIY 头像</h2>
+      <div class="container-fluid">
+        <div class="row row-cols-5 justify-content-center text-center" id="bottle-container"></div>
+      </div>
+      <form id="bottle-info" autocomplete="off">
+      <div class="row-sm text-center">
+        <img id="avatar-preview" src="img/loading.jpg">
+      </div>
+      <div class="form-group btn-group-toggle row active mt-2" id="bg-picker" role="tabpanel" data-toggle="buttons">
+        <label class="btn my-picker active"><input type="radio" class="set-bg" name="avatar-bg" value="1" data-posinfo="[52,56,152]" checked></label>
+        <label class="btn my-picker"><input type="radio" class="set-bg" name="avatar-bg" value="2" data-posinfo="[52,56,152]"></label>
+        <label class="btn my-picker"><input type="radio" class="set-bg" name="avatar-bg" value="3" data-posinfo="[52,56,152]"></label>
+        <label class="btn my-picker"><input type="radio" class="set-bg" name="avatar-bg" value="4" data-posinfo="[52,56,152]"></label>
+        <label class="btn my-picker"><input type="radio" class="set-bg" name="avatar-bg" value="5" data-posinfo="[52,56,152]"></label>
+      </div>
+      <div class="form-row mb-2 py-1 px-2" id="avatar-loader">
+        <button type="button" class="btn btn-primary from-control col-sm" id="select-avatar">上传我的头像！</button>
+        <input type="file" name="avatar-file" id="avatar-file" accept="image/*" style="display: none;">
+      </div>
+      </form>
+    </div>
+    <canvas id="avatar-canvas" width="256" height="256"></canvas>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
