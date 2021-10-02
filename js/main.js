@@ -43,7 +43,7 @@ $(function() {
 	var BG_URL = "img/bg#1.png";
 	var PV_URL = "img/bg#1.png";
 	var FG_URL = "img/fg#1.png";
-	var AVATAR_SIZE = 256;
+	var AVATAR_SIZE = 512;
 	var LOADED_TEST_INTERVAL = 100;
 	var unfinished = 0;
 
